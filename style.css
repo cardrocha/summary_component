@@ -112,6 +112,9 @@
 
 .summary__color.vermelho {
   color: hsl(0, 100%, 67%);
+  display: flex;
+  align-items: center;
+  gap: 10px;
   
 }
 
@@ -121,6 +124,9 @@
 
 .summary__color.amarelo {
   color:hsl(39, 100%, 56%);
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
 .summary__content.verde {
@@ -129,6 +135,9 @@
 
 .summary__color.verde {
   color: hsl(166, 100%, 37%);
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
 .summary__content.azul {
@@ -137,6 +146,9 @@
 
 .summary__color.azul {
   color: hsl(234, 85%, 45%);
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
 .summary__number {
@@ -150,6 +162,13 @@ button {
   color: #fff;
   padding: 5px;
   border-radius: 25px;
+  cursor: pointer;
+  border: 2px solid hsl(224, 30%, 27%);
+}
+
+button:hover {
+  background-color: hsl(224, 30%, 37%);
+  border: 2px solid hsl(224, 30%, 37%);
 }
 
 @media (max-width: 768px) {
